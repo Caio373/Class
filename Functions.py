@@ -1,11 +1,13 @@
 from Classe import *
+lista_cachorro = []
+lista_humano = []
 
 def criar_cao():
     nome = input("Nome do cachorro: ")
     tamanho = input("Tamanho do cachorro: ")
     raca = input("Raça do cachorro: ")
     cao = Cachorro(nome, tamanho, raca)
-    Cachorro.lista_cachorro.append(cao)
+    lista_cachorro.append(cao)
     
     
 
@@ -14,7 +16,7 @@ def criar_humano():
     sexo = input("Sexo: ")
     cor = input("Cor: ")
     humano = Humano(nome, sexo, cor)
-    Humano.lista_humano.append(humano)
+    lista_humano.append(humano)
 
 def Listar(lista):
     if len(lista) > 0:

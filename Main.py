@@ -2,8 +2,6 @@ from Classe import*
 from Views import*
 from Functions import*
 
-ista_cachorro = []
-lista_humano = []
 
 # def criar_cao():
 #     nome = input("Nome do cachorro: ")
@@ -48,5 +46,6 @@ while True:
         Ecluir_humano()
 
     
-    # if 6 == op:
+    if 7 == op:
+        break
        

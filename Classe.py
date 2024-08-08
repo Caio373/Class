@@ -13,7 +13,6 @@ class Animal:
         self.tamanho = tamanho
 
 class Humano(Animal):
-    lista_humano = []
     racionalidade: bool
     cor: str
 
@@ -31,7 +30,6 @@ class Humano(Animal):
 
 
 class Cachorro(Animal):
-    lista_cachorro = []
     tamanho:0
     cor:str
     
